@@ -1,0 +1,71 @@
+/* CSS Document */
+/*
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+}
+*/
+.style1 {font-size: 12px;color: #333333; font-weight:bold;}
+.style2 {font-size: 12px;color: #333333;}
+.input_style1 {border:1px solid #bbbbbb; width:200px; height:18px; font-size:12px; color:#666666;}
+.input_style2 {border:1px solid #bbbbbb; width:450px; height:18px; font-size:12px; color:#666666;}
+.textarea_style1 {border:1px solid #bbbbbb; width:450px; height:150px; font-size:12px; color:#666666;}
+
+table {
+	table-layout: fixed;
+    width: 100%;
+}
+td {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+td.columnA {
+    width: 30%;
+}
+td.columnB {
+    width: 70%;
+}
+
+
+.container_div {
+  display:block;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  width: 100%;
+}
+
+
+@media screen and (max-width:2000px) {
+	td:nth-child(6) {
+		display: none;
+	}
+}
+@media screen and (max-width:480px) {
+	td:nth-child(1) {
+		display: none;
+	}	
+	td:nth-child(2) {
+		display: none;
+	}
+	td:nth-child(3) {
+		display: none;
+	}
+	td:nth-child(4) {
+		display: none;
+	}	
+	td:nth-child(5) {
+		display: none;
+	}			
+	tr.b-hed {
+		display: none;
+	}
+	td:nth-child(6) {
+		display: inline;
+	}	
+}

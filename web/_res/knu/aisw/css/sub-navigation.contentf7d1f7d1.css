@@ -1,0 +1,48 @@
+.path-box{position:relative;max-width:1290px;height:55px;border:1px solid #dbdbdb;border-radius:30px;box-sizing:border-box;}
+.path-box:after{content:'';display:block;clear:both;}
+.path-home{position:relative;float:left;width:73px;height:53px;background:url(../../temp08/img/common/ico-home.png) no-repeat center center;box-sizing:border-box;}
+.path-home:after{content:'';position:absolute;top:19px;right:0;width:1px;height:18px;background-color:#929fcc;}
+.path-depth-wrap{float:left;width:calc(100% - 168px);}
+.path-depth-wrap > ul:after{content:'';display:block;clear:both;}
+.path-depth-wrap > ul > li{float:left;position:relative;min-width:250px;}
+.path-depth-wrap > ul > li:after{content:'';position:absolute;top:19px;right:0;width:1px;height:18px;background-color:#929fcc;}
+.path-depth-wrap > ul > li > .path-selected{display:block;padding:15px 53px 15px 30px;background:url(../../temp08/img/common/ico-path-open.png) no-repeat right 30px center;font-size:18px;line-height:23px;color:#333;font-weight:200;}
+.path-depth-wrap > ul > li.active > .path-selected{background-image:url(../../temp08/img/common/ico-path-close.png);}
+.path-depth-wrap > ul > li > .path-depth{display:none;position:absolute;top:100%;left:-1px;z-index:20;padding:25px 30px;width:100%;border:1px solid #e4e4e4;border-radius:0 0 20px 20px;background:#f1f6ff;box-sizing:border-box;}
+.path-depth-wrap > ul > li > .path-depth > li{padding:0 0 15px 0;}
+.path-depth-wrap > ul > li > .path-depth > li:last-of-type{padding:0;}
+.path-depth-wrap > ul > li > .path-depth > li > a{display:inline-block;font-size:18px;color:#777;font-weight:200;}
+.path-depth-wrap > ul > li > .path-depth > li > a:hover{color:#1f51a2;font-weight:500;}
+.path-depth-wrap > ul > li > .path-depth > li.active > a{font-weight:500;color:#1f51a2;}
+.path-box .util-box{float:right;padding:0 35px 0 0;}
+.path-box .util-box ul:after{content:'';display:block;clear:both;}
+.path-box .util-box ul li{float:left;padding:15px 20px 16px 0;}
+.path-box .util-box ul li:last-of-type{padding-right:0;}
+.path-box .util-box ul li a{display:block;width:20px;height:22px;text-indent:-999999px;}
+.path-box .util-box ul li a.print{background:url(../../temp08/img/common/ico-util-print.png) no-repeat center center/100%;}
+.path-box .util-box ul li a.share{background:url(../../temp08/img/common/ico-util-share.png) no-repeat center center/100%;}
+
+@media screen and (max-width:1200px){
+	.path-depth-wrap > ul > li{min-width:200px;}
+}
+
+@media screen and (max-width:1024px){
+	.path-box{border-right:0;border-left:0;border-radius:0;}
+	.path-depth-wrap{width:calc(100% - 73px);}
+	.path-box .util-box{display:none;}
+}
+
+@media screen and (max-width:768px){
+	.path-box{height:45px;}
+	.path-home{display:none;}
+	.path-depth-wrap{float:none;width:100%;}
+	.path-depth-wrap > ul{display:table;width:100%;table-layout:fixed;}
+	.path-depth-wrap > ul > li{display:table-cell;float:none;width:50%;min-width:auto;border-right:1px solid #e8e8e8;}
+	.path-depth-wrap > ul > li.end{border-right:none;}
+	.path-depth-wrap > ul > li:after{display:none;}
+	.path-depth-wrap > ul > li > .path-selected{display:block;padding:12px 30px 12px 9px;background-position:right 15px center;font-size:14px;line-height:19px;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;}
+	.path-depth-wrap > ul > li > .path-depth{padding:10px;border-radius:0 0 5px 5px;}
+	.path-box .util-box{display:none;}
+	.path-depth-wrap > ul > li > .path-depth > li{padding:0 0 5px 0;}
+	.path-depth-wrap > ul > li > .path-depth > li > a{font-size:14px;line-height:19px;}
+}

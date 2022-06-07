@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.table-wrap{overflow:hidden;}
+.knu-table{width:calc(100% + 1px);table-layout:fixed;border-top:2px solid #aaa;border-spacing:0;border-collapse:separate;}
+.knu-table thead th{padding:12px 10px 13px;border-right:1px solid #aaa;border-bottom:1px solid #aaa;background-color:#f9f9f9;font-weight:500;font-size:18px;color:#000;line-height:24px;text-align:center;word-wrap:break-word;}
+.knu-table thead th.th-left{text-align:left !important;}
+
+.knu-table tbody th{padding:12px 10px 13px;border-right:1px solid #d5d5db;border-bottom:1px solid #d5d5db;background-color:#f9f9f9;font-weight:500;font-size:18px;color:#000;line-height:24px;text-align:center;letter-spacing:-0.5px;word-wrap:break-word;}
+.knu-table tbody th.th-left{text-align:left !important;}
+.knu-table tbody td{padding:12px 20px 13px;border-right:1px solid #d5d5db;border-bottom:1px solid #d5d5db;font-size:16px;color:#333;line-height:24px;word-wrap:break-word;text-align:center;}
+.knu-table tbody td.td-left{text-align:left !important;}
+.knu-table tbody td.td-bg{background-color:#f9f9f9;}
+.knu-table tbody td.td-top{vertical-align:top;}
+.knu-table tbody td a:hover{text-decoration:underline;}
+
+.knu-table tfoot td{padding:12px 20px 13px;border-right:1px solid #d5d5db;border-bottom:1px solid #d5d5db;background-color:#f9f9f9;font-weight:500;font-size:18px;color:#333;line-height:24px;text-align:center;letter-spacing:-0.5px;word-wrap:break-word;}
+
+.knu-table tbody td .ul-type01, .knu-table tbody td .ul-type02, .knu-table tbody td .ol-type01, .knu-table tbody td .ol-type02, .knu-table tbody td .ol-type02 .knu-table tbody td .mark-p{padding:0;}
+
+/* scrollbox */
+.msg-touch-help {display:none;}
+
+@media screen and (max-width:768px) {
+	.knu-table thead th{padding:7px 5px;font-size:14px;line-height:22px;}
+	.knu-table tbody th{padding:7px;font-size:14px;line-height:22px;}
+	.knu-table tbody td{padding:7px;font-size:14px;line-height:22px;}
+
+	.knu-table tfoot td{padding:10px;font-size:15px;line-height:23px;}
+
+	/* scrollbox */
+	.scrollbox{position:relative;width:100%;overflow-x:auto;overflow-y:hidden;}	
+	.scrollbox .knu-table{width:800px;}
+	.scrollbox .knu-table table{width:100%;}
+	.msg-touch-help {display:block;position:absolute;top:30px;left:50%;margin:0 0 0 -35px;width:70px;height:70px;}
+	.msg-touch-help img {width:100%;}
+}

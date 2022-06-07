@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Light.woff2) format('woff2'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Light.woff) format('woff'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-DemiLight.woff2) format('woff2'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-DemiLight.woff) format('woff'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-DemiLight.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Regular.woff2) format('woff2'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Regular.woff) format('woff'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Medium.woff2) format('woff2'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Medium.woff) format('woff'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Bold.woff2) format('woff2'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Bold.woff) format('woff'),
+        url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Black.woff2) format('woff2'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Black.woff) format('woff'),
+       url(https://aisw.kangwon.ac.kr/_res/knu/_share/etc/NotoSansKR-Black.otf) format('opentype');
+}

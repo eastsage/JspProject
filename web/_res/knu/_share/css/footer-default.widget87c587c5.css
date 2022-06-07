@@ -1,0 +1,53 @@
+/* footer layout */
+.top-footer-wrap{background-color:#38415a;}
+
+/* 푸터 상단 */
+.top-footer-box{display:table;margin:0 auto;width:100%;max-width:1280px;table-layout:fixed;}
+.top-footer-box:after{content:'';display:block;clear:both;}
+
+.footer-util-box{display:table-cell;width:100%;}
+.footer-util-box ul{padding:23px 0 22px;}
+.footer-util-box ul li{display:inline-block;position:relative;margin:0 8px 0 0;padding:0 15px 0 0;vertical-align:middle;}
+.footer-util-box ul li:before{content:'/';display:inline-block;position:absolute;top:0;right:0;color:#fff;}
+.footer-util-box ul li:last-of-type{margin:0;padding:0;}
+.footer-util-box ul li:last-of-type:before{display:none;}
+.footer-util-box ul li a{display:inline-block;font-size:18px;color:#fff;line-height:25px;}
+.footer-util-box ul li.privacy a{color:#f9f166;}
+
+.footer-related-box{display:table-cell;position:relative;width:270px;background-color:#2a334d;vertical-align:middle;}
+.related-site-wrap > a{display:block;padding:21px 0 21px 50px;}
+.related-site-wrap > a span{font-size:16px;color:#fff;line-height:28px;}
+.related-site-wrap > a span:after{content:'';display:inline-block;position:absolute;top:50%;right:35px;width:19px;height:11px;background:url(../img/common/btn-selected01.png) no-repeat;transform:translateY(-50%);-ms-transform:translateY(-50%);}
+.related-site-wrap > a.active span:after{background-position:left bottom;} 
+.related-site-wrap .related-site-box{display:none;position:absolute;bottom:100%;left:0;z-index:50;width:100%;max-height:300px;border:1px solid #2a334d;border-bottom:0;background-color:#fff;box-sizing:border-box;overflow-y:scroll;}
+.related-site-wrap .related-site-box ul{padding:20px;}
+.related-site-wrap .related-site-box ul > li{padding:0 0 10px 0;}
+.related-site-wrap .related-site-box ul > li:last-of-type{padding-bottom:0;}
+.related-site-wrap .related-site-box ul > li > a{display:block;position:relative;padding:0 0 0 15px;font-size:16px;color:#333;line-height:26px;}
+.related-site-wrap .related-site-box ul > li > a:before{content:'';position:absolute;top:13px;left:0;width:5px;height:2px;background:#2a334d;}
+
+@media screen and (max-width :1024px) {
+	.footer-related-box{width:220px;}
+	.footer-util-box ul{padding:23px 0 22px 10px;}
+
+	.related-site-wrap > a{padding:21px 0 21px 30px;}
+	.related-site-wrap > a span:after{right:15px;}
+}
+@media screen and (max-width :768px) {
+	/* 푸터 상단 */
+	.footer-util-box{display:block;}
+	.footer-util-box ul{padding:12px 10px;text-align:center;}
+	.footer-util-box ul li{margin:0 6px 0 0;padding:0 13px 0 0;}
+	.footer-util-box ul li:before{content:'|';color:#fff;}
+	.footer-util-box ul li a{font-size:15px;color:#fff;line-height:25px;}
+
+	.footer-related-box{display:block;width:100%;}
+	.related-site-wrap > a{padding:15px 30px;}
+	.related-site-wrap > a span{font-size:15px;line-height:25px;}
+	.related-site-wrap > a span:after{right:35px;width:19px;height:11px;}
+	.related-site-wrap .related-site-box{max-height:220px;}
+	.related-site-wrap .related-site-box ul{padding:15px;}
+	.related-site-wrap .related-site-box ul > li{padding:0 0 7px 0;}
+	.related-site-wrap .related-site-box ul > li > a{padding:0 0 0 10px;font-size:14px;line-height:24px;}
+	.related-site-wrap .related-site-box ul > li > a:before{top:11px;width:4px;height:1px;}
+}

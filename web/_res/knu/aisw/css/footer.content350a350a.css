@@ -1,0 +1,24 @@
+/* 푸터 하단 */
+.bottom-footer-box{margin:0 auto;padding:35px 0 50px;max-width:1280px;}
+.bottom-footer-box:after{content:'';display:block;clear:both;}
+
+.footer-logo-box{float:left;padding:0 30px 0 0;}
+address{float:left;max-width:calc(100% - 255px);font-style:normal;}
+address ul li{display:inline-block;position:relative;margin:0 12px 0 0;padding:0 13px 0 0;font-size:15px;color:#666;line-height:24px;}
+address ul li:before{content:'';display:inline-block;position:absolute;top:5px;right:0;width:1px;height:15px;background:#cecece;}
+address ul li:last-of-type{margin:0;padding:0;}
+address ul li:last-of-type:before{display:none;}
+address .copyright{padding:5px 0 0;font-size:15px;color:#666;line-height:24px;}
+
+@media screen and (max-width :1024px) {
+}
+@media screen and (max-width :768px) {
+	/* 푸터 하단 */
+	.bottom-footer-box{padding:20px 15px 30px;}
+
+	.footer-logo-box{display:none;}
+	address{max-width:100%;}
+	address ul li{margin:0 8px 0 0;padding:0 9px 0 0;}
+	address ul li:before{top:5px;height:15px;}
+	address ul li span{font-weight:500;color:#000;}
+}

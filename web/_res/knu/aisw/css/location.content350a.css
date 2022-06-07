@@ -1,0 +1,36 @@
+.location-box .location-map-box{padding:0 0 45px 0;}
+.location-box .location-map-box > div{width:100% !important;}
+.location-box .location-map-box > div > div{height:340px !important;}
+.location-box .location-con-box > p{padding:0 0 45px 0;font-weight:700;font-size:26px;line-height:36px;}
+.location-box .location-con-box > div:after{content:'';display:block;clear:both;}
+.location-box .location-con-box > div > div{float:left;padding:0 40px 0 0;width:calc(50% - 20px);}
+.location-box .location-con-box > div > div:last-of-type{padding:0;}
+.location-box .location-con-box > div > div dl{padding:0 0 25px 0;display:table;width:100%;table-layout:fixed;}
+.location-box .location-con-box > div > div dl:last-of-type{padding:0;}
+.location-box .location-con-box > div > div dl dt{display:table-cell;padding:0 35px 0 0;width: 65px;font-weight:500;font-size:16px;color:#000;line-height:24px;}
+.location-box .location-con-box > div > div dl dd{display:table-cell;font-size:16px;line-height:24px;}
+.location-box .location-con-box > div > div dl dd ul li{padding-bottom:10px;}
+
+@media screen and (max-width : 1024px){
+	.location-box .location-map-box > div > div{height:350px !important;}
+	.location-box .location-con-box > p{padding:0 0 30px 0;}
+    .location-box .location-con-box > div > div{float:none;margin:0 0 40px 0;padding:0 0 35px 0;width:100%;border-bottom:1px solid #e7e7e7;}
+	.location-box .location-con-box > div > div:last-of-type{margin:0;border:none;}
+	.location-box .location-con-box > div > div dl{padding:0 0 15px 0}
+}
+
+@media screen and (max-width : 768px){
+	.location-box .location-map-box{padding:0 0 20px 0;}
+	.location-box .location-map-box > div > div{height:250px !important;}
+	.location-box .location-con-box > p{padding: 0 0 15px 0;font-size:20px;line-height:30px;}
+    .location-box .location-con-box > div > div{margin: 0 0 25px 0;padding: 0 0 20px 0;}
+	.location-box .location-con-box > div > div dl{padding: 0 0 10px 0;}
+	.location-box .location-con-box > div > div dl dt{padding:0 10px 0 0;font-size:14px;line-height:22px;}
+	.location-box .location-con-box > div > div:nth-of-type(2) dl dt{display:block;padding:0 0 10px 0;width:100%;}
+	.location-box .location-con-box > div > div dl dd{font-size:14px;line-height:22px;}
+	.location-box .location-con-box > div > div:nth-of-type(2) dl dd{display:block;}
+}
+
+@media screen and (max-width : 480px){
+
+}
