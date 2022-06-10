@@ -1,0 +1,36 @@
+.admission-box > h4{padding:0 0 10px 0;font-weight:200;font-size:40px;color:#000;line-height:45px;}
+.admission-box > p{padding:0 0 75px 0;font-size:20px;color:#000;line-height:25px;}
+.admission-box ul:after{content:'';display:block;clear:both;}
+.admission-box ul li{display:table;float:left;margin:0 15px 0 0;width:calc(33.33333% - 10px);table-layout:fixed;}
+.admission-box ul li:last-of-type{margin:0;}
+.admission-box ul li a{display:table-cell;position:relative;padding:60px 10px 40px;background-color:#f5f5f5;text-align:center;}
+.admission-box ul li a:hover:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;border:2px solid #ed6d00;box-sizing:border-box;}
+.admission-box ul li a p:before{content:'';display:block;margin:0 auto 30px;width:85px;height:91px;}
+.admission-box ul li:nth-of-type(1) a p:before{background:url(../../_share/img/contents/ico-admission01.png) no-repeat 0 0/100%;}
+.admission-box ul li:nth-of-type(2) a p:before{background:url(../../_share/img/contents/ico-admission02.png) no-repeat 0 0/100%;}
+.admission-box ul li:nth-of-type(3) a p:before{background:url(../../_share/img/contents/ico-admission03.png) no-repeat 0 0/100%;}
+.admission-box ul li a p:after{content:'';display:block;margin:29px auto 0;width:24px;height:9px;background:url(../../_share/img/contents/bg-admission-arr.png) no-repeat 0 0/100%;}
+.admission-box ul li a p span{display:block;}
+.admission-box ul li a p .sub{padding:0 0 5px 0;font-weight:700;font-size:14px;color:#a9a9a9;line-height:19px;}
+.admission-box ul li a p .title{font-weight:200;font-size:32px;color:#000;line-height:37px;}
+
+@media screen and (max-width:1024px) {
+	.admission-box > h4{font-size:25px;line-height:30px;}
+	.admission-box > p{padding:0 0 40px 0;font-size:18px;line-height:23px;}
+	.admission-box ul li a p .title{font-size:24px;line-height:29px;}
+
+}
+
+@media screen and (max-width:768px) {
+	.admission-box > h4{font-size:20px;line-height:25px;}
+	.admission-box > p{padding:0 0 20px 0;font-size:16px;line-height:21px;}
+	.admission-box ul li{float:none;margin:0 0 10px 0;width:100%;}
+	.admission-box ul li a{padding: 12px 10px;}
+	.admission-box ul li a p:before{margin: 0 auto 10px;width: 45px;height: 48px;}
+	.admission-box ul li a p:after{margin: 7px auto 0;width:24px;height:9px;}
+	.admission-box ul li a p .sub{padding: 0;font-size: 11px;line-height: 16px;}
+	.admission-box ul li a p .title{font-size: 18px;line-height: 23px;}
+}
+
+@media screen and (max-width:480px) {	
+}

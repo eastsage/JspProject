@@ -18,7 +18,7 @@
 .related-site-wrap > a{display:block;padding:21px 0 21px 50px;}
 .related-site-wrap > a span{font-size:16px;color:#fff;line-height:28px;}
 .related-site-wrap > a span:after{content:'';display:inline-block;position:absolute;top:50%;right:35px;width:19px;height:11px;background:url(../img/common/btn-selected01.png) no-repeat;transform:translateY(-50%);-ms-transform:translateY(-50%);}
-.related-site-wrap > a.active span:after{background-position:left bottom;} 
+.related-site-wrap > a.active span:after{background-position:left bottom;}
 .related-site-wrap .related-site-box{display:none;position:absolute;bottom:100%;left:0;z-index:50;width:100%;max-height:300px;border:1px solid #2a334d;border-bottom:0;background-color:#fff;box-sizing:border-box;overflow-y:scroll;}
 .related-site-wrap .related-site-box ul{padding:20px;}
 .related-site-wrap .related-site-box ul > li{padding:0 0 10px 0;}
@@ -51,3 +51,4 @@
 	.related-site-wrap .related-site-box ul > li > a{padding:0 0 0 10px;font-size:14px;line-height:24px;}
 	.related-site-wrap .related-site-box ul > li > a:before{top:11px;width:4px;height:1px;}
 }
+ footer layout

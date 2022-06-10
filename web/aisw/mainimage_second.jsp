@@ -17,7 +17,7 @@
             <h3 class="main-title">전공소개</h3>
             <div class="main-video-box"><span class="fr-video fr-fvc fr-dvi fr-draggable" >
 				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-io9f_63anc" title="YouTube video player" frameborder="0" allowfullscreen="" class="fr-draggable">
-				</iframe></span></div><a class="btn-more" href="${pageContext.request.contextPath}/aisw/intro/intro.html" rel="noopener noreferrer" target="_blank" title="전공소개 바로가기">더보기</a></div>
+				</iframe></span></div><a class="btn-more" href="${pageContext.request.contextPath}/aisw/intro/intro.jsp" rel="noopener noreferrer" target="_blank" title="전공소개 바로가기">더보기</a></div>
         <div class="main-mini-box main-mini-box02">
             <div class="main-quick-lnk-box">
                 <div class="scrollert">
@@ -47,7 +47,7 @@
                                 <div>
                                     <p class="txt01">장학안내</p>
                                 </div></a></li>
-                            <li><a href="${pageContext.request.contextPath}/aisw/bachelor/calendar.html" rel="noopener noreferrer" target="_blank" title="학사일정 바로가기">
+                            <li><a href="${pageContext.request.contextPath}/aisw/bachelor/calendar.jsp" rel="noopener noreferrer" target="_blank" title="학사일정 바로가기">
                                 <div>
                                     <p class="txt01">학사일정</p>
                                 </div></a></li>
