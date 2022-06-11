@@ -37,7 +37,7 @@
 	<BODY>
 	<%@ include file="../community/freeboard/dbconn.jsp" %>
 	<P>
-	<P align=center><FONT color=#0000ff face=굴림 size=5><STRONG>자주하는 질문</STRONG></FONT></P>
+	<P align=center><FONT color=#0000ff face=굴림 size=5><STRONG>공지사항</STRONG></FONT></P>
 	<P>
 		<CENTER>
 	<TABLE class="table">
