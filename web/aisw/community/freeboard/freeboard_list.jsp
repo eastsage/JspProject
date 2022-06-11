@@ -28,7 +28,21 @@
  <BODY>
  <%@ include file="dbconn.jsp" %>
  <P>
- <P align=center><FONT color=#0000ff face=굴림 size=5><STRONG>공지사항</STRONG></FONT></P>
+ <P align=center><FONT color=#0000ff face=굴림 size=5><STRONG>
+  <%
+   String table = "freeboard";
+   if (request.getParameter("table") != null) {
+    table = request.getParameter("table");
+   }
+    switch (table) {
+     case "freeboard" : out.print("공지사항");break;
+     case "gallery" : out.print("갤러리");break;
+     case "dataroom" : out.print("서식자료실");break;
+     case "qna" : out.print("질문하기");break;
+     case "faq" : out.print("자주하는 질문");break;
+    }
+  %>
+ </STRONG></FONT></P>
  <P>
   <CENTER>
  <TABLE class="table">
@@ -44,6 +58,7 @@
   </thead>
 
    <%
+
   Vector name=new Vector();
   Vector inputdate=new Vector();
   Vector email=new Vector();
@@ -92,7 +107,7 @@
 
  try {
   st = con.createStatement();
-  String sql = "select * from freeboard order by" ;
+  String sql = "select * from "+ table + " order by" ;
   sql = sql + " masterid desc, replynum, step, id" ;
   rs = st.executeQuery(sql);
 

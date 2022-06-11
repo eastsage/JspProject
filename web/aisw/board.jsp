@@ -124,7 +124,7 @@
                                         %>
                                     </ul>
                                 </div>
-                            </div><a class="btn-more" href="community/freeboard/gallery_list.jsp?table=gallery" title="갤러리 바로가기 ">더보기</a>
+                            </div><a class="btn-more" href="community/freeboard/freeboard_list.jsp?table=gallery" title="갤러리 바로가기 ">더보기</a>
                         </li>
                     </ul>
                 </div>
@@ -176,7 +176,7 @@
                 </div>
 
 
-                <a class="btn-more" href="${pageContext.request.contextPath}/aisw/community/freeboard/dataroom_list.jsp?table=dataroom" title="서식자료실 바로가기 ">더보기</a>
+                <a class="btn-more" href="${pageContext.request.contextPath}/aisw/community/freeboard/freeboard_list.jsp?table=dataroom" title="서식자료실 바로가기 ">더보기</a>
             </div>
         </div>
 

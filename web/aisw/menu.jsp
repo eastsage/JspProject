@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: idonghyeon
-  Date: 2022/04/24
-  Time: 2:46 오후
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page language="java" pageEncoding="UTF-8" %>
 <div class="container">
     <nav class="navbar navbar-expand navbar-light bg-light">
@@ -67,8 +61,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="${pageContext.request.contextPath}/aisw/community/freeboard/freeboard_list.jsp?table=freeboard">공지사항</a>
-                        <a class="dropdown-item" href="${pageContext.request.contextPath}/aisw/community/freeboard/gallery_list.jsp?table=gallery">갤러리</a>
-                        <a class="dropdown-item" href="${pageContext.request.contextPath}/aisw/community/freeboard/dataroom_list.jsp?table=dataroom">서식자료실</a>
+                        <a class="dropdown-item" href="${pageContext.request.contextPath}/aisw/community/freeboard/freeboard_list.jsp?table=gallery">갤러리</a>
+                        <a class="dropdown-item" href="${pageContext.request.contextPath}/aisw/community/freeboard/freeboard_list.jsp?table=dataroom">서식자료실</a>
                     </div>
                 </li>
             </ul>
